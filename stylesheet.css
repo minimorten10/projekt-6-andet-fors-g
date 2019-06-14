@@ -1,0 +1,300 @@
+body{
+  margin: 0;
+  font-family: verdana,sans-serif;
+}
+
+/* Header */
+header {
+  background:#35424a;
+  color:#ffffff;
+  padding-top: 30px; /* This gives the top 30px */
+  min-height: 70; /* The header can't get smaller than 70px */
+  border-bottom: white 3px solid; /* Gives the header an orange border */
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li{
+  float; left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  text-align: center;
+  margin-bottom: 10px;
+
+}
+
+header #branding h1{
+  margin: 0;
+}
+
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+
+
+
+
+header a:hover{
+color:#cccccc;
+font-weight: bold;
+}
+
+#showcase {
+  min-height: 400px;
+  background: url('graas1.jpg')  0 -200px;
+  text-align: center;
+  color: black;
+  opacity: 0.6;
+}
+
+
+#showcase h1{
+  padding-top: 40px;
+  margin-top: 0px;
+  font-size: 45px;
+  margin-bottom: 10px;
+
+}
+
+#showcase p{
+  font-size: 20px;
+}
+
+.slideshow-container{
+  width: 1200px;
+  position: relative;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.slides{
+  display:none;
+}
+
+.number {
+  position:absolute;
+  padding: 8px 12px;
+  color: white;
+}
+
+.lunde-beskrivelse{
+  padding-top: 20px;
+  margin: auto;
+  text-align: center;
+
+}
+
+.center1 {
+  text-align: center;
+}
+
+
+#min_video {
+  width: 900px;
+  height: 430px;
+}
+
+
+.text{
+  text-align: center;
+  font-size: 25px;
+  position: absolute;
+  width: 100%;
+  padding: 8px 16px;
+  bottom: 22px;        /*det ændrer textens placering*/
+  color: white;
+  font-weight: bold;
+}
+
+.prev,.next{
+  position: absolute;
+  bottom: 250px;
+  color: #f2f2f2;
+  font-weight: bold;
+  padding: 10px 10px;
+  font-size: 40px;
+  border-radius: 0 3px 3px 0;
+  cursor: pointer;
+}
+
+.next{
+  border-radius: 3px 0 0 0;
+  right: 0;
+}
+
+.prev:hover, .next:hover{
+  background: rgba(0,0,0,0.8);
+}
+
+.dots {
+  width:13px;
+  height: 13px;
+  display: inline-block;
+  background: gray;
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dotscenter {
+  text-align: center;
+}
+
+.fade{
+  animation-name: fade;
+  animation-duration: 0.5s;
+}
+
+@keyframes fade{
+  from{opacity: 0.4}
+  to{opacity:1}
+}
+
+.active ,.dots:hover{
+  background: #333;
+}
+
+
+
+
+
+.column-layout {
+  height: 400px;
+  background-color: #fff;
+  margin: 20px 20px 20px 20px;
+  line-height: 1.50;
+  padding: 25px ;
+  display: flex;
+}
+
+.left-column, .middle-column, .right-column {
+  width: 30%;
+  padding: 40px;
+}
+
+.centered {
+position: absolute;
+  top: 130px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 85px;
+}
+
+.bottom-left {
+  position: absolute;
+  top: 1680px;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 20px;
+  color: beige;
+    text-align: left;
+}
+
+.bottom-center {
+  position: absolute;
+  top: 1680px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 20px;
+  color: beige;
+    text-align: left;
+}
+
+.bottom-right {
+  position: absolute;
+  top: 1680px;
+  left: 85%;
+  transform: translate(-50%, -50%);
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 20px;
+  color: beige;
+    text-align: left;
+}
+
+/*slideshow kasse*/
+#fællesskab {
+  width:auto;
+  height:720px;
+  border:1px solid #000;
+  background-color:#fff;
+}
+
+/*video*/
+#video_sektion{
+
+
+
+
+}
+
+#video_title{
+    margin: auto;
+    color: darkslategrey;
+    font-size: 3vw;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+#video_description{ display: block;
+    position: static;
+    margin-left: 950px;
+    margin-top: -10px;
+    font-size: 16px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+
+#video_kasse{
+    width:900px;
+    background:#000;
+    margin: auto;
+}
+
+#video_kontrol{
+    background: #333;
+    padding:10px;
+}
+
+
+
+
+.footer {
+  padding: 10px;
+  margin-top: 100px;
+  color: white;
+  background-color: #35424a;
+  text-align: center;
+}
+
+#social-icons {
+  text-align: center;
+  }
+#social-icons li {
+  display:inline-block;
+  list-style-type:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  }
+#social-icons li a {
+  border-bottom: none;
+  }
+#social-icons li img {
+  width:3em;
+  height:3em;
+  margin-right: 20px;
+}
+
+.right-footer {
+  float: left;
+
+}

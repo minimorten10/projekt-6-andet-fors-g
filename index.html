@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content=" En hjemmeside som skal promovere Lunde og gøre den mere attraktiv for unge mennesker.">
+  <meta name="keywords" content="Unge med børn,Lunde, lille by, flytte, sammenhold, fællesskab, kultur,frihed, hjemmeside ">
+  <meta name="author" content="Morten Westergaard, Oskar Hjorth, Daniel Duvier">
+  <title>Index</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <script src="script.js" defer></script>
+
+</head>
+<body>
+
+  <header>
+  <div id="nav">
+    <div class="center1">
+  <ul>
+
+    <li><a href="#fællesskab">Slideshow</a></li>
+    <li><a href="#video_kasse">Kampagne Video</a></li>
+    <li><a href="#social-icons">Kontakt Lunde</a></li>
+  </ul>
+</div>
+</div>
+  </header>
+
+
+
+
+
+
+
+  <section id="showcase">
+    <div class="container">
+      <h1>I Lunde tager vi hånd om alle</h1>
+      <p>Vi løfter i flok!| Fællesskab | Frihed</p>
+    </div>
+  </section>
+
+  <div class="column-layout">
+    <div class="left-column">
+       <h2>Friluftsliv</h2>
+       <p>Naturen i baghaven.Om du er til mountainbike, jagt, fiskeri eller noget helt andet, så er der masser af plads til udfoldelse, både på de store byggegrunde og på de mange naturarealer.</p>
+  </div>
+  <div class="middle-column">
+    <h2>Frihed</h2>
+    <p>I Lunde er der både økonomisk og kreativt råderum til at bygge din ejendom.Vi har store grunde til fornuftige priser, vi ønsker nemlig ikke at tjene på salget af byens byggegrunde!
+       Om du er en digital virksomhed eller bare er moderne, så kan du nyde godt af Lundes fibernet.
+      </p>
+  </div>
+  <div class="right-column">
+    <h2>Fællesskab</h2>
+    <p>Lundes kerne består af byens aktive fællesskab. I byen hjælper man gerne med hvad man kan, og mange af byens installationer er bygget og finansieret i fællesskab af byens borgere
+      </p>
+  </div>
+  </div>
+
+<!--værdier-slide-->
+ <div id="fællesskab">
+   <!--slideshow container-->
+   <div class="slideshow-container">
+     <div class="slides fade">
+     <div class="number">1 / 4</div>
+     <div><img src="slider1.jpg" alt="slide1"></div>
+     <div class="text">Frihed</div>
+   </div>
+
+
+     <div class="slides">
+     <div class="number">2 / 4</div>
+     <div><img src="slider2.jpg" alt="slide2"></div>
+     <div class="text">Fællesskab</div>
+   </div>
+
+
+     <div class="slides">
+     <div class="number">3 / 4</div>
+     <div><img src="slider3.jpg" alt="slide3"></div>
+     <div class="text">Friluftsliv</div>
+   </div>
+
+
+     <div class="slides">
+     <div class="number">4 / 4</div>
+     <div><img src="slider4.jpg" alt="slide4"></div>
+     <div class="text">Familie</div>
+   </div>
+
+   <a class="prev" onclick="plusIndex(-1)">&#10094;</a> <!--&#10094 giver en pil til venstre-->
+   <a class="next" onclick="plusIndex(+1)">&#10095;</a> <!--&#10095 giver en pil til højre-->
+
+   </div>
+   <br/>
+
+   <div class="dotscenter">
+   <div>
+     <span class="dots" onclick="currentSlide(1)"></span>
+     <span class="dots" onclick="currentSlide(2)"></span>
+     <span class="dots" onclick="currentSlide(3)"></span>
+     <span class="dots" onclick="currentSlide(4)"></span>
+   </div>
+   </div>
+ </div>
+
+
+
+
+<div class="center1">
+<div class="lunde-beskrivelse">
+   <h1>Se videoen om lunde her</h1>
+</div>
+</div>
+
+<div id="video_sektion">
+ <div id="video_title">
+
+
+
+ </div>
+
+ <div id="video_kasse">
+  <video id="min_video">
+   <source src="resources/ikv.mp4#t=1.">
+  </video>
+  <div id="video_kontrol">
+   <button id="playpauseknp" onclick="playPause(this,'min_video')">Afspil</button>
+  </div>
+ </div>
+</div>
+
+<div class="footer">
+<ul id="social-icons">
+  <li><a href="https://www.facebook.com/Lunde.Varde/?__tn__=%2Cd%2CP-R&eid=ARAWLRJFwepDapWJPzv0IU7DkxgOvu7V55x2AVjYXucP1pWWiAZ4h_xJ-C282Ljdo_VILWsDIlLScc2Z"><img src='facebook.png' alt="facebook icon" /></a></li>
+</ul>
+<div class="right-footer">
+  <p>
+  </p>
+</div>
+<p>Lunde Varde, Copyright &copy; 2019 <br>
+6830 Nørre Nebel</p>
+ </div>
+
+
+
+</body>
+
+</html>
